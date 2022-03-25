@@ -76,6 +76,6 @@ public class MainLambda {
         return listaFiltrada;
     }
 
-    // con esta solución nos ahorramos un método para cada criterio, porque el filtro vale para todo
+    // con esta solución nos ahorramos un método para cada criterio, porque el filtro vale para to-do
     // ahora en el main tratamos de instanciar la interfaz directamente -> me crea una anónima y la sustituyo por un lambda (ver el main)
 }
