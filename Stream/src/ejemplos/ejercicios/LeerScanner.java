@@ -16,11 +16,13 @@ public class LeerScanner {
         try {
             Scanner sc = new Scanner(f);
             while (sc.hasNextLine()) {
+                System.out.println("linea a linea");
                 System.out.println(sc.nextLine());
             }
             sc = new Scanner(f);
-            while (sc.hasNextLine()) {
-                System.out.println(sc.nextLine());
+            while (sc.hasNextInt()) {
+                System.out.println("Número a número");
+                System.out.println(sc.nextInt());
             }
         } catch (FileNotFoundException e) {
             System.out.println("No se encuentra el fichero" + e.getMessage());
