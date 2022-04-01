@@ -9,6 +9,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="FicherosSnif" target="16" />
       <module name="Lambda" target="17" />
     </bytecodeTargetLevel>
   </component>
